@@ -37,25 +37,54 @@ header, footer, aside, nav, article { display: block; }
 
 /* General
 ***************************************************************/
-/*
-body { font: normal 100% Segoe UI,Trebuchet,Arial,Sans-Serif; height: 100%; text-align:left; color:#000; background: #d3d3d3; }
-body { font: normal 106.25% Cambria, Georgia, Serif; height: 100%; text-align:left; color:#333; background: #fff; }
-body { font: normal 100% Cambria, Georgia, Serif; height: 100%; text-align:left; color:#333; background: #fff; }
-body { font: normal 112.5% Cambria, Georgia, Serif; height: 100%; text-align:left; color:#333; background: #fff; }
+/* Default font settings. 
+The body font-size 106.25% sets the base font to 17px 
+
+Pixels	  Ems	   Percent	Points
+  6	0.3529	    35.29%	  5
+  7	0.4118	    41.18%	  5
+  8	0.4706	    47.06%	  6
+  9	0.5294	    52.94%	  7
+ 10	0.5882	    58.82%	  8
+ 11	0.6471	    64.71%	  8
+ 12	0.7059	    70.59%	  9
+ 13	0.7647	    76.47%	 10
+ 14	0.8235	    82.35%	 11
+ 15	0.8824	    88.24%	 11
+ 16	0.9412	    94.12%	 12
+ 17	1.0000	   100.00%	 13
+ 18	1.0588	   105.88%	 14
+ 19	1.1176	   111.76%	 14
+ 20	1.1765	   117.65%	 15
+ 21	1.2353	   123.53%	 16
+ 22	1.2941	   129.41%	 17
+ 23	1.3529	   135.29%	 17
+ 24	1.4118	   141.18%	 18
+ 25	1.4706	   147.06%	
+ 26	1.5294	   152.94%	
+ 27	1.5882	   158.82%	
+ 28	1.6471	   164.71%	
+ 29	1.7059	   170.59%	
+ 30	1.7647	   176.47%	
+ 31	1.8235	   182.35%	
+ 32	1.8824	   188.24%	
+ 33	1.9412	   194.12%	
+ 34	2.0000	   200.00%	
 */
+
 body { font: normal 106.25% Cambria, Georgia, Serif; height: 100%; text-align:left; color:#333; background: #fff; }
 
 /* Headings */
 h1,h2,h3,h4,h5,h6,legend {font-weight:normal; font-style: normal;}
-h1 {font-size: 160%;}
-h2 {font-size: 145%;}
-h3 {font-size: 130%;}
-h4 {font-size: 120%;}
-h5 {font-size: 105%;}
+h1 {font-size: 1.6471em;}
+h2 {font-size: 1.5294em;}
+h3 {font-size: 1.3529em;}
+h4 {font-size: 1.2353em;}
+h5 {font-size: 1.0588em;}
 
-p           { margin: 0 0 1.2em; line-height: 1.6em; }
-p img.left  { float: left; margin: 0.923em 0.923em 0.923em 0; padding: 0; }
-p img.right { float: right; margin: 0.923em 0 0.923em 0.923em; }
+p           { margin: 0 0 1.2em; line-height: 1.5882em; }
+p img.left  { float: left; margin: 0.9412em 0.9412em 0.9412em 0; padding: 0; }
+p img.right { float: right; margin: 0.9412em 0 0.9412em 0.9412em; }
     
 a:focus, a:hover { text-decoration: underline; }
 a { color: #d71a21; text-decoration: none; }
@@ -68,7 +97,7 @@ nav ul li { border: 1px solid #ebebeb; border-left-width: 0; background:#f7f7f7;
 nav ul li:last-child { border-right-width: 0; }
 nav ul li:hover { background-color: #ebebeb; }
 /*nav ul li.current { /*border-bottom: 1px solid #fff;* / background:#fff; }*/
-nav ul a { padding: 0px 18px; display:block; color: #333; text-decoration:none; line-height: 1.6666em; text-transform: none; font-variant: small-caps; 
+nav ul a { padding: 0px 1em; display:block; color: #333; text-decoration:none; line-height: 1.6471em; text-transform: none; font-variant: small-caps; 
 	/* font-size: 14px; text-transform: uppercase; */ /* font-size: 17px; text-transform: none; font-variant: small-caps; */
 }
 nav ul a:hover { text-decoration:none; }
@@ -85,11 +114,11 @@ nav ul a:hover { text-decoration:none; }
 #sidebar-wrapper { float: right; width: 336px; padding: 0 0 0 30px; margin-top: -0.625em;}
 #content { }
 #sidebar { }
-.zone-sidebar { font-size: 0.8825em; }
+.zone-sidebar { font-size: 0.8824em; }
 .zone-sidebar > div { margin-bottom: 2em; }
 .zone-sidebar h4 { margin-top: 1.5em; margin-bottom: 1em; font-size: 1.3333em; border-bottom: 1px dotted #bababa; font-variant: small-caps; }
 .zone-sidebar a { color: #333; }
-.zone-sidebar #about { margin-top: 1.2222em; }
+.zone-sidebar #about { margin-top: 1.2353em; }
 .zone-sidebar #about p { }
 
 /* Secondary
@@ -97,6 +126,16 @@ nav ul a:hover { text-decoration:none; }
 
 /* Forms
 ***************************************************************/
+form              { margin: 0; padding: 0; }
+legend            { font-size: 1.2353em; font-weight: normal; margin: 0 0 1.2em 0; border:none; }
+fieldset          { padding:0em; margin: 0 0 0em 0; border: 0px solid #dbdbdb; }
+label             { font-weight: normal; display:block; padding: 0 0 0.3em 0; }
+label.forcheckbox { margin:0 0 0 .4em; display:inline; }
+input[type="text"], input[type="password"] { display: block; padding: 0.3em; }
+input[type="checkbox"] { margin:.2em 0 1.2em 0; }
+fieldset ol     { list-style-type:none; padding: 0; margin: 0; }
+fieldset ol li  { margin: 0 0 6px 0; }
+
 
 /* Content
 ***************************************************************/
@@ -106,8 +145,28 @@ header h1 { font-size: 2em; margin-top: 1.6em; }
 /* for single blog post item page when logged in; clashes with above line for blog listing items
  #content > .zone-content .content-item > header > h1 { margin-top: 0; }
 */
-header .metadata { font-size: 1em; line-height: 1.2222em; color: #ababab; 
+
+/* Metadata */
+.metadata .published { font-size: 1em; line-height: 1.2353em; color: #ababab; 
                    display: block; overflow: hidden; width: 60px; height: 2.4444em; margin-bottom: -2.4444em; font-variant: small-caps; position: relative; left: -87px; /* 1,6em + 60px width */ top: -2.6666em; text-align: right; }
+.metadata .commentcount { font-size: 0.8824em; line-height: 1.2353em; color: #ababab; }
+.metadata .taxonomy-field { font-size: 0.8824em; line-height: 1.2353em; color: #ababab; }
+
+/* Comments */
+#comments { margin: 1.5882em 0 0 0; padding: 0; }
+.comment-form { margin: 1.5882em 0 0 0; padding: 0; }
+.comments { margin: 0; padding: 0; list-style: none; }
+.comments li { margin: 0.8em 0 0 0; padding: 0.8em; border: 1px solid #dbdbdb; }
+.comment { margin: 0; padding: 0; }
+.comment h4 { font-size: 1.0588em; }
+.comment .who {}
+.comment .what {}
+.comment #add-comment {}
+.comment-form #comment-by { font-size: 1.2353em; font-weight: normal; margin: 0 0 1.2353em 0; border:none; }
+.comment-form #comment-text { width: 33.2em; }
+.comment-form input[type="text"] { width: 32em; }
+.comment-disabled {}
+.comment-count { font-size: 1.2353em; }
 
 /* Footer
 ***************************************************************/
@@ -121,7 +180,7 @@ footer span { display: block; font-size: 0.675em; line-height: 1.4em; color: #ab
 /*
 .social { display: block; height: 64px; }
 .social a { vertical-align: top; display: inline-block; margin-right: 1em; }
-.social a.text { margin-top: 1.2222em; line-height: 1.2222em; }
+.social a.text { margin-top: 1.2353em; line-height: 1.2353em; }
 #social-twitter { }
 #social-twitter a { }
 #social-rss a { }
