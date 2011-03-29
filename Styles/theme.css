@@ -1,0 +1,128 @@
+﻿/****** TEMP STUFF **********/
+
+header .metadata { border: 0px dotted #ccc; }
+
+
+/*
+Theme: The Other Side of Code
+Author: Tomislav Capan
+Copyright: (c) 2011. Netko Ltd. (http://netko.hr/)
+*/
+
+/* Colors Palette
+Background: #d3d3d3
+Text: #000
+Main Accent: #999
+Links: #c03
+*/
+
+/* Reset
+***************************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+
+header, footer, aside, nav, article { display: block; }
+
+/* Clearing Float
+***************************************************************/
+.group:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.group {display: inline-block;}  /* for IE/Mac */
+
+/* General
+***************************************************************/
+/*
+body { font: normal 100% Segoe UI,Trebuchet,Arial,Sans-Serif; height: 100%; text-align:left; color:#000; background: #d3d3d3; }
+body { font: normal 106.25% Cambria, Georgia, Serif; height: 100%; text-align:left; color:#333; background: #fff; }
+body { font: normal 100% Cambria, Georgia, Serif; height: 100%; text-align:left; color:#333; background: #fff; }
+body { font: normal 112.5% Cambria, Georgia, Serif; height: 100%; text-align:left; color:#333; background: #fff; }
+*/
+body { font: normal 106.25% Cambria, Georgia, Serif; height: 100%; text-align:left; color:#333; background: #fff; }
+
+/* Headings */
+h1,h2,h3,h4,h5,h6,legend {font-weight:normal; font-style: normal;}
+h1 {font-size: 160%;}
+h2 {font-size: 145%;}
+h3 {font-size: 130%;}
+h4 {font-size: 120%;}
+h5 {font-size: 105%;}
+
+p           { margin: 0 0 1.2em; line-height: 1.6em; }
+p img.left  { float: left; margin: 0.923em 0.923em 0.923em 0; padding: 0; }
+p img.right { float: right; margin: 0.923em 0 0.923em 0.923em; }
+    
+a:focus, a:hover { text-decoration: underline; }
+a { color: #d71a21; text-decoration: none; }
+
+/* Structure
+***************************************************************/
+#layout-navigation { width: 980px; padding: 0; margin: 1em auto 0 auto; display: block; border-bottom: 1px solid #ebebeb; }
+nav ul { padding: 0px; margin: 0px; }
+nav ul li { border: 1px solid #ebebeb; border-left-width: 0; background:#f7f7f7; display: inline-block; margin: 0; margin-bottom: -1px; }
+nav ul li:last-child { border-right-width: 0; }
+nav ul li:hover { background-color: #ebebeb; }
+/*nav ul li.current { /*border-bottom: 1px solid #fff;* / background:#fff; }*/
+nav ul a { padding: 0px 18px; display:block; color: #333; text-decoration:none; line-height: 1.6666em; text-transform: none; font-variant: small-caps; 
+	/* font-size: 14px; text-transform: uppercase; */ /* font-size: 17px; text-transform: none; font-variant: small-caps; */
+}
+nav ul a:hover { text-decoration:none; }
+
+#header { width: 980px; padding: 0; background: #fff; color: #000; height: 60px; margin: 0 auto 1em auto; }
+#branding h1{ font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; color:#333; line-height: 60px; margin: 20px 18px; }
+
+.content-items li { list-style-type: none; }
+
+/* Main
+***************************************************************/
+#main { margin: 0 auto 40px auto; width: 940px; padding: 20px 20px 0 20px; display: block; border-top: 1px solid #ebebeb; }
+#content-wrapper { float: left; width: 544px; padding: 0 30px 0 0; }
+#sidebar-wrapper { float: right; width: 336px; padding: 0 0 0 30px; margin-top: -0.625em;}
+#content { }
+#sidebar { }
+.zone-sidebar { font-size: 0.8825em; }
+.zone-sidebar > div { margin-bottom: 2em; }
+.zone-sidebar h4 { margin-top: 1.5em; margin-bottom: 1em; font-size: 1.3333em; border-bottom: 1px dotted #bababa; font-variant: small-caps; }
+.zone-sidebar a { color: #333; }
+.zone-sidebar #about { margin-top: 1.2222em; }
+.zone-sidebar #about p { }
+
+/* Secondary
+***************************************************************/
+
+/* Forms
+***************************************************************/
+
+/* Content
+***************************************************************/
+header { margin-bottom: 1.2em; }
+header h1 { font-size: 2em; margin-top: 1.6em; }
+#content > .zone-content > .content-item:first-child > header > h1 { margin-top: 0; }
+/* for single blog post item page when logged in; clashes with above line for blog listing items
+ #content > .zone-content .content-item > header > h1 { margin-top: 0; }
+*/
+header .metadata { font-size: 1em; line-height: 1.2222em; color: #ababab; 
+                   display: block; overflow: hidden; width: 60px; height: 2.4444em; margin-bottom: -2.4444em; font-variant: small-caps; position: relative; left: -87px; /* 1,6em + 60px width */ top: -2.6666em; text-align: right; }
+
+/* Footer
+***************************************************************/
+footer { margin-bottom: 1.2em; width: 940px; margin: 0 auto; padding: 20px; border-top: 4px solid #ebebeb; }
+footer span { display: block; font-size: 0.675em; line-height: 1.4em; color: #ababab; text-align: right; }
+
+/* Misc
+***************************************************************/
+#social {}
+#social a { display: inline-block; height: 64px; margin: 0 0.55em; }
+/*
+.social { display: block; height: 64px; }
+.social a { vertical-align: top; display: inline-block; margin-right: 1em; }
+.social a.text { margin-top: 1.2222em; line-height: 1.2222em; }
+#social-twitter { }
+#social-twitter a { }
+#social-rss a { }
+*/

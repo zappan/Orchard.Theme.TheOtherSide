@@ -1,0 +1,41 @@
+﻿@{
+    /* Global includes for the theme
+    ***************************************************************/
+    Script.Require("ShapesBase");
+	Style.Include("http://fonts.googleapis.com/css?family=Philosopher&subset=latin");
+    Style.Include("theme.css");
+	
+    /* Inserting some ad hoc shapes
+    ***************************************************************/
+    //WorkContext.Layout.Header.Add(New.Branding(), "5"); // Site name and link to the home page
+    //WorkContext.Layout.Footer.Add(New.User(), "10"); // Login and dashboard links
+	//WorkContext.Layout.Header.Add(New.Top(), "5");
+	WorkContext.Layout.Sidebar.Add(New.Sidebar(), "5");
+    WorkContext.Layout.Footer.Add(New.Footer(), "5"); // Powered by Orchard
+}
+
+<div id="layout-navigation" class="group">
+    @Display(Model.Navigation)
+</div>
+<div id="header">
+    <div id="branding">
+        <h1>@WorkContext.CurrentSite.SiteName</h1>
+    </div>
+</div>
+<div id="main" class="group">
+    <div id="content-wrapper">
+        <div id="content">
+            @Display(Model.Content)
+        </div>
+    </div>
+    <div id="sidebar-wrapper">
+        <div id="sidebar">
+            @Display(Model.Sidebar)
+        </div>
+    </div>
+</div>
+<div id="footer-wrapper">
+    <footer>
+        @Display(Model.Footer)
+    </footer>
+</div>
