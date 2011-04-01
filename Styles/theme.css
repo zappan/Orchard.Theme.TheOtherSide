@@ -254,10 +254,14 @@ footer span { display: block; font-size: 0.675em; line-height: 1.4em; color: #ab
 
 /* Misc
 ***************************************************************/
-#social {}
-#social a { display: inline-block; height: 64px; margin: 0 0.55em; }
-
-a.social-button { display: inline-block; height: 64px; margin: 0 0.55em; }
+a.social-button { display: inline-block; position: relative; width: 64px; height: 64px; margin: 0 0.55em; }
+a.social-button img { position:absolute; left:0;
+	-webkit-transition: opacity 0.16s ease-in-out;
+	-moz-transition: opacity 0.16s ease-in-out;
+	-o-transition: opacity 0.16s ease-in-out;
+	transition: opacity 0.16s ease-in-out;
+}
+a.social-button img.top:hover { opacity: 0; }
 
 /* Widgets
 ***************************************************************/
