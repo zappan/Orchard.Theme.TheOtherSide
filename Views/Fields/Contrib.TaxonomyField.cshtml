@@ -1,0 +1,14 @@
+﻿@using Orchard.Utility.Extensions;
+@using Orchard.ContentManagement;
+
+@{
+    var terms = (IEnumerable<Contrib.Taxonomies.Models.TermPart>)Model.Terms;
+	string name = @Model.ContentField.Name;
+}
+
+@if (Model.Terms.Count > 0) {
+<p class="taxonomy-field">
+    <span class="name">@name.CamelFriendly():</span> 
+    @(new HtmlString( string.Join(", ", terms.Select(t => Html.ActionLink(t.Name, "List", "Home", new { taxonomySlug = (string)Model.Taxonomy.Slug, path = t.Slug, area = "Contrib.Taxonomies" }, null).ToString()).ToArray()) ))
+</p>
+}
