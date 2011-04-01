@@ -159,7 +159,6 @@ nav ul a:hover, nav ul a:active { text-decoration: none; }
 .zone-aftercontent {}
 .zone-asidesecond {}
 .zone-aftermain {}
-/*
 .zone-zone-tripelfirst {}
 .zone-zone-tripelsecond {}
 .zone-zone-tripelthird {}
@@ -169,13 +168,6 @@ nav ul a:hover, nav ul a:active { text-decoration: none; }
 .zone-footerquadfourth {}
 */
 .zone-footer {}
-
-.zone-sidebar > div { margin-bottom: 2em; }
-.zone-sidebar h4 { margin-top: 1.5em; margin-bottom: 1em; font-size: 1.3333em; border-bottom: 1px dotted #bababa; font-variant: small-caps; }
-.zone-sidebar h4:first-child { margin-top: 0; padding-top: 0.1765em; }
-.zone-sidebar a { color: #333; }
-.zone-sidebar #about { }
-.zone-sidebar #about p { }
 
 /* Main
 ***************************************************************/
@@ -246,6 +238,18 @@ nav ul a:hover, nav ul a:active { text-decoration: none; }
 .comment-disabled {}
 .comment-count { font-size: 1.2353em; }
 
+/* Sidebar Content
+***************************************************************/
+.zone-sidebar > div { margin-bottom: 2em; }
+.zone-sidebar > div.widget-control { margin-bottom: 0; }
+.zone-sidebar h1 { margin-top: 1.5em; margin-bottom: 1em; font-size: 1.3333em; border-bottom: 1px dotted #bababa; font-variant: small-caps; }
+.zone-sidebar h1:first-child { margin-top: 0; padding-top: 0.1765em; }
+.zone-sidebar a { color: #333; }
+.zone-sidebar #about { }
+.zone-sidebar #about p { }
+
+
+
 /* Footer
 ***************************************************************/
 footer { margin-bottom: 1.2em; width: 940px; margin: 0 auto; padding: 20px; border-top: 4px solid #ebebeb; }
@@ -256,6 +260,8 @@ footer span { display: block; font-size: 0.675em; line-height: 1.4em; color: #ab
 #social {}
 #social a { display: inline-block; height: 64px; margin: 0 0.55em; }
 
+a.social-button { display: inline-block; height: 64px; margin: 0 0.55em; }
+
 /* Widgets
 ***************************************************************/
 /*
@@ -265,25 +271,18 @@ footer span { display: block; font-size: 0.675em; line-height: 1.4em; color: #ab
 
 /* Edit Mode Widgets */
 /* These are the edit controls that appear when you're logged-in */
-/*
-.widget-control { float: right; position: relative; border: 1px dotted #5f97af; }
-.widget-control .manage-actions { position: absolute; top: 0px; right: 0px; }
-.widget-control .manage-actions a { display: block; background-color: #dbdbdb; color: #434343; padding: 3px 6px; margin: 0; }
-.widget-control .manage-actions a:hover { background-color: #434343; color: #fff; text-decoration: none; }
-*/
+.widget-control { }
+.widget-control .manage-actions { float: right; margin-top: 6px; }
+.widget-control .manage-actions a { display: block; float: left; background-color: #f2f2f2; color: #ababab; font-size: 12px; padding: 3px 6px; text-transform: uppercase; }
+.widget-control .manage-actions a:hover { background-color: #eaeaea; color: #9f9f9f; text-decoration: none; }
 
+
+/* Content Mode */
+/* These are the edit controls that appear when you're logged-in */
 .content-control { }
 .content-control .manage-actions { float: left; margin-left: -81px; margin-top: 47px; }
 .content-control .manage-actions a { display: block; float: left; background-color: #f2f2f2; color: #ababab; font-size: 12px; padding: 3px 6px; text-transform: uppercase; }
 .content-control .manage-actions a:hover { background-color: #eaeaea; color: #9f9f9f; text-decoration: none; }
-
-/* Content Mode */
-/*
-.content-control { float: right; position: relative; border: 1px dotted #5f97af; }
-.content-control .manage-actions { position: absolute; top: 0px; right: 0px; }
-.content-control .manage-actions a { display: block; background-color: #dbdbdb; color: #434343; padding: 3px 6px; margin: 0; }
-.content-control .manage-actions a:hover { background-color: #434343; color: #fff; text-decoration: none; }
-*/
 
 /* Pager
 ***************************************************************/
