@@ -183,16 +183,14 @@ nav ul a:hover, nav ul a:active { text-decoration: none; }
 ***************************************************************/
 
 /* Content lists and details */
-.content-item header { margin-bottom: 1.2em; position: relative; }
-.content-item h1 { font-size: 2em; }
-.content-item h1 a { text-decoration: none; }
 .content-items .content-item header { }
 .content-items .content-item header h1 { margin-top: 1.6em; }
-#content > .zone-content > .content-item:first-child > header > h1 { margin-top: 0; }
-/* TO-FIX: for single blog post item page when logged in; clashes with above line for blog listing items
- #content > .zone-content .content-item > header > h1 { margin-top: 0; }
-*/
+.content-items > li.first .content-item h1 { margin-top: 0; }
+.content-item header { margin-bottom: 1em; position: relative; }
+.content-item h1 { font-size: 2em; }
+.content-item h1 a { text-decoration: none; }
 
+h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765em; border-bottom: 1px dotted #dcdcdc; padding-top: 0.1765em; font-variant: small-caps; text-transform: lowercase; }
 
 /* Tags */
 .tags { color: #878787; font-size: 0.8824em; line-height: 1.5333em; margin: 0.0666em 0; font-style: italic; }
@@ -242,7 +240,7 @@ nav ul a:hover, nav ul a:active { text-decoration: none; }
 .zone-sidebar > div { margin-bottom: 2em; }
 .zone-sidebar > div.widget-control { margin-bottom: 0; }
 .zone-sidebar h1 { margin-top: 1.5em; margin-bottom: 1em; font-size: 1.3333em; border-bottom: 1px dotted #bababa; font-variant: small-caps; }
-.zone-sidebar h1:first-child { margin-top: 0; padding-top: 0.1765em; }
+.zone-sidebar h1:first-child { margin-top: 0px; padding-top: 0.1765em; }
 .zone-sidebar a { color: #333; }
 .zone-sidebar #about { }
 .zone-sidebar #about p { }
