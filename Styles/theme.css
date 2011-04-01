@@ -199,8 +199,7 @@ nav ul a:hover, nav ul a:active { text-decoration: none; }
 .tags a { color: #878787; }
 .tags a:hover, .tags a:active { color: #333; text-decoration: none; }
 
-/* Taxonomy */
-.taxonomy-field { display: none; }	/* decided not to display taxonomy in posts */
+/* Taxonomy (displaying with posts currently removed via template override, but keep the styling) */
 /* general taxonomy look */
 .taxonomy-field { color: #878787; line-height: 1.2353em; font-style: italic; }
 .taxonomy-field a { color: #878787; }
