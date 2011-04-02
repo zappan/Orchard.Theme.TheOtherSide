@@ -76,7 +76,7 @@ Pixels	  Ems	   Percent	Points
  34	2.0000	   200.00%	
 */
 
-body { font: normal 106.25% Cambria, 'Philosopher', Georgia, Serif; height: 100%; text-align:left; color:#333; background: #fff; }
+body { font: normal 106.25% Cambria, 'Liberation Serif', 'Philosopher', Georgia, Serif; height: 100%; text-align:left; color:#333; background: #fff; }
 
 /* Headings */
 h1,h2,h3,h4,h5,h6,legend {font-weight:normal; font-style: normal;}
@@ -90,6 +90,8 @@ h5 {font-size: 1.0588em;}
 p           { margin: 0 0 1.5882em; line-height: 1.5882em; }
 p img.left  { float: left; margin: 0.9412em 0.9412em 0.9412em 0; padding: 0; }
 p img.right { float: right; margin: 0.9412em 0 0.9412em 0.9412em; }
+pre         { margin: 0 0 2.25em; /*27px*/ font-size: 0.7059em; /*12px*/ line-height: 1.1667em; /*14px*/ font-family: Consolas, "Liberation Mono", Monaco, "Lucida Console", "Courier New", Courier, monospace; }
+pre.prettyprint { border-width: 0 !important; background-color: #f9f9f9; padding: 10px !important; margin-left: 10px; margin-right: 10px; border-radius: 10px; }
     
 a:focus, a:hover { text-decoration: underline; }
 a { color: #d71a21; text-decoration: none; }
