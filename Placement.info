@@ -4,6 +4,9 @@
              Parts_RoutableTitle="-"
 			 Parts_Common_Metadata="-" />
   </Match>
+  <Match ContentType="Page">
+      <Place Parts_Common_Metadata="-" />
+  </Match>
 
   <Match DisplayType="Summary">
     <Place Parts_Tags_ShowTags="-"
