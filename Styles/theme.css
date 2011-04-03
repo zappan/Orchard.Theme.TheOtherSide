@@ -139,7 +139,7 @@ input, textarea { font: normal 106.25% Cambria, 'Philosopher', Georgia, Serif; c
 , #layout-footer, #layout-tripel { width: 980px; margin: 0 auto; }
 
 /* Navigation */
-#layout-navigation { width: 980px; padding: 0; margin: 1em auto 0 auto; display: block; border-bottom: 1px solid #ebebeb; }
+#layout-navigation { width: 980px; padding: 0; margin: 1em auto 0 auto; display: block; border-bottom: 2px solid #ebebeb; }
 nav ul { padding: 0; margin: 0; }
 nav ul li { border: 1px solid #ebebeb; border-left-width: 0; background:#f7f7f7; display: inline-block; margin: 0; margin-bottom: -1px;
 	-webkit-transition: background-color 0.16s ease-in-out;
@@ -153,8 +153,8 @@ nav ul li:hover { background-color: #ebebeb; }
 nav ul a { padding: 0px 1em; display:block; color: #212121; text-decoration:none; line-height: 1.6471em; text-transform: none; font-variant: small-caps; }
 nav ul a:hover, nav ul a:active { text-decoration: none; }
 
-#header { width: 980px; padding: 0; background: #fff; color: #000; height: 60px; margin: 0 auto 1em auto; }
-#branding h1{ font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; color:#212121; line-height: 60px; margin: 20px 18px; }
+#header { width: 980px; padding: 0; background: #fff; color: #000; margin: 2px auto; border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; }
+#branding h1 { font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; color:#212121; line-height: 40px; margin: 25px 18px; }
 
 /* Zones (defined in Theme.txt) */
 .zone 
@@ -172,7 +172,7 @@ nav ul a:hover, nav ul a:active { text-decoration: none; }
 
 /* Main
 ***************************************************************/
-#main { margin: 0 auto 40px auto; width: 940px; padding: 20px 20px 0 20px; display: block; border-top: 1px solid #ebebeb; }
+#main { margin: 0 auto 40px auto; width: 940px; padding: 20px 20px 0 20px; display: block; border-top: 2px solid #ebebeb; }
 #content-wrapper { float: left; }
 #sidebar-wrapper { float: right; }
 
