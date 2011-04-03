@@ -28,6 +28,17 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
 
+body { line-height: 1; color: #333; background: white; }
+
+/* Lists */
+ul li { list-style-type: none; }
+
+/* Blockquote styling */
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+/* HTML 5 elements as block */  
 header, footer, aside, nav, article { display: block; }
 
 /* Remember focus styles! */
@@ -97,8 +108,9 @@ pre         { margin: 0 10px 2.25em 10px; /*27px*/ font-size: 0.7059em; /*12px*/
 a:focus, a:hover { text-decoration: underline; }
 a { color: #d71a21; text-decoration: none; }
 
-/*ol li,*/
-ul li { list-style-type: none; }
+blockquote  { margin-left: 0.7059em; margin-right: 0.7059em; margin-bottom: 1.5882em; color: #878787; font-style: italic; padding-top: 0.3529em; margin-top: -0.3529em; background: url(../Content/Images/quote-open.png) top left no-repeat; }
+blockquote p { margin-left: 2.3529em; }
+blockquote cite { display: block; margin-right: 2.3529em; text-align: right; margin: -1em 1.5882em 0.5882em 0; line-height: 1.5882em; }
 
 strong      { font-weight: bold; }
 em,dfn      { font-style: italic; }
