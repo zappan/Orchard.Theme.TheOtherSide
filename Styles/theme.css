@@ -1,4 +1,4 @@
-﻿/****** TEMP STUFF **********/
+﻿#/****** TEMP STUFF **********/
 
 header .metadata { border: 0px dotted #ccc; }
 
@@ -119,7 +119,7 @@ input[type="text"], input[type="password"] { display: block; font-size: 1em; pad
 input[type="checkbox"] { margin: 0.2941em 0 1.2941em 0; }
 fieldset ol     { list-style-type: none; padding: 0; margin: 0; }
 fieldset ol li  { margin: 0 0 0.7647em 0; }
-input, textarea { font: normal 106.25% Cambria, 'Philosopher', Georgia, Serif; }
+input, textarea { font: normal 106.25% Cambria, 'Philosopher', Georgia, Serif; color: #333; }
 
 /* Structure
 ***************************************************************/
@@ -212,13 +212,21 @@ h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765
                        position: absolute; top: 0.1765em; left: -104px; /* 2*1,6em + 60px width */ }
 .metadata .commentcount { font-size: 0.8824em; line-height: 1.2353em; font-style: italic; color: #878787; }
 
+/* Share this */
+.blog-post { position: relative; }
+.share-this-left { position: absolute; left: -104px; text-align: right; }
+.share-this-left > span { display: block; margin-bottom: 19px; }
+.share-this-bottom { font-size: 0.8824em; margin-top: 4.5em; }
+.share-this-bottom h5 { color: #878787; font-style: italic; font-size: 1.2666em; line-height: 1.5263em; margin-bottom: 0.4em; border-bottom: 1px dotted #bababa; text-indent: 2px; }
+.share-this-bottom > span { margin-right: 10px; }
+
 /* Comments */
-#comments { margin: 4em 0 0 0; padding: 0; color: #444; font-size: 0.8824em; }
-#comments h2 { font-style: italic; font-size: 1.2666em; line-height: 1.5263em; margin-bottom: 0.6316em; border-bottom: 1px dotted #bababa; text-indent: 2px; }
-.comment-form { margin: 4em 0 0 0; padding: 0; color: #444; font-size: 0.8824em; }
+#comments { margin: 4.5em 0 0 0; padding: 0; color: #333; font-size: 0.8824em; }
+.comment-form { margin: 4.5em 0 0 0; padding: 0; font-size: 0.8824em; }
 #comments+.comment-form  { margin-top: 2em; }
-.comment-form legend { width: 100%; font-style: italic; font-size: 1.2666em; line-height: 1.5263em; margin-bottom: 0em; border-bottom: 1px dotted #bababa; text-indent: 2px; }
-.comment-form legend+ol { padding-top: 0.8em; }
+.share-this-bottom+#comments { margin-top: 2.7em; }
+.share-this-bottom+.comment-form { margin-top: 2.7em; }
+#comments h2 { color: #878787; font-style: italic; font-size: 1.2666em; line-height: 1.5263em; margin-bottom: 0.6316em; border-bottom: 1px dotted #bababa; text-indent: 2px; }
 .comments { margin: 0; padding: 0; list-style: none; }
 .comments li { margin: 0.8em 0 0 0; padding: 0.8em; border-radius: 4px; border: 1px solid #e7e7e7;}
 .comments article.comment p.text { margin-bottom: 0; line-height: 1.2667em; }
@@ -227,6 +235,9 @@ h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765
 .comment .who {}
 .comment .what {}
 .comment #add-comment {}
+/* Comment form */
+.comment-form legend { color: #878787; width: 100%; font-style: italic; font-size: 1.2666em; line-height: 1.5263em; margin-bottom: 0em; border-bottom: 1px dotted #bababa; text-indent: 2px; }
+.comment-form legend+ol { padding-top: 0.8em; }
 .comment-form #commenter { font-style: italic; font-size: 1.2666em; line-height: 1.5263em; margin-bottom: 0.2105em; font-weight: normal; }
 .comment-form #comment-text { width: 100%; font-size: 1em; line-height: 1.333em; height: 13.3333em; }
 .comment-form input[type="text"] { width: 24em; }
