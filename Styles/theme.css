@@ -165,6 +165,7 @@ nav ul a:hover, nav ul a:active { text-decoration: none; }
 }
 .zone-header { }
 .zone-navigation { padding: 0; }
+.zone-messages { font-size: 0.8824em; font-style: italic; padding: 0.6em 30px 0.8em 0; }
 .zone-content { width: 544px; padding: 7px 30px 0 0; }
 .zone-sidebar { font-size: 0.8824em; width: 336px; padding: 7px 0 0 30px; margin-top: 0; }
 .zone-footer {}
@@ -254,6 +255,14 @@ h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765
 .comment-form input[type="text"] { width: 24em; }
 .comment-disabled {}
 .comment-count { font-size: 1.2353em; }
+
+/* Confirmations */
+
+.message, .validation-summary-errors { padding: 0.4em 0.6666em; border-radius: 0.3333em; }
+.messages a { font-weight:bold; }
+.message-Information { background:#e6f1c9; /* green */ border:1px solid #cfe493; color:#163222; }
+.message-Warning { background:#fdf5bc; /* yellow */ border:1px solid #ffea9b; }
+.critical.message, .validation-summary-errors, .message-Error { background:#e68585; /* red */ border:1px solid #990808; color:#fff; }
 
 /* Sidebar Content
 ***************************************************************/

@@ -28,6 +28,11 @@
 </div>
 <div id="main" class="group">
     <div id="content-wrapper">
+        @if (Model.Messages != null) {
+        <div id="messages">
+            @Display(Model.Messages)
+        </div>
+        }
         <div id="content">
             @Display(Model.Content)
         </div>

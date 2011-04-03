@@ -4,4 +4,4 @@ Website: http://www.theothersideofcode.com/
 Description: 'The other side' blog theme
 Version: 1.0
 Tags: Classic, Blog, Serif
-Zones: Navigation, Header, Content, Sidebar, Footer
+Zones: Navigation, Header, Messages, Content, Sidebar, Footer
