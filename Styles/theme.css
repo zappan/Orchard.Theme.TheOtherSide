@@ -27,8 +27,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
-
-body { line-height: 1; color: #333; background: white; }
+body { line-height: 1; color: #000; background: white; }
 
 /* Lists */
 ul li { list-style-type: none; }
@@ -87,7 +86,7 @@ Pixels	  Ems	   Percent	Points
  34	2.0000	   200.00%	
 */
 
-body { font: normal 106.25% Cambria, 'Liberation Serif', 'Philosopher', Georgia, Serif; height: 100%; text-align:left; color:#333; background: #fff; }
+body { font: normal 106.25% Cambria, 'Liberation Serif', 'Philosopher', Georgia, Serif; height: 100%; text-align:left; color:#212121; background: #fff; }
 
 /* Headings */
 h1,h2,h3,h4,h5,h6,legend {font-weight:normal; font-style: normal;}
@@ -131,7 +130,7 @@ input[type="text"], input[type="password"] { display: block; font-size: 1em; pad
 input[type="checkbox"] { margin: 0.2941em 0 1.2941em 0; }
 fieldset ol     { list-style-type: none; padding: 0; margin: 0; }
 fieldset ol li  { margin: 0 0 0.7647em 0; }
-input, textarea { font: normal 106.25% Cambria, 'Philosopher', Georgia, Serif; color: #333; }
+input, textarea { font: normal 106.25% Cambria, 'Philosopher', Georgia, Serif; color: #212121; }
 
 /* Structure
 ***************************************************************/
@@ -151,11 +150,11 @@ nav ul li { border: 1px solid #ebebeb; border-left-width: 0; background:#f7f7f7;
 nav ul li:last-child { border-right-width: 0; }
 nav ul li:hover { background-color: #ebebeb; }
 /*nav ul li.current { background:#fff; }*/
-nav ul a { padding: 0px 1em; display:block; color: #333; text-decoration:none; line-height: 1.6471em; text-transform: none; font-variant: small-caps; }
+nav ul a { padding: 0px 1em; display:block; color: #212121; text-decoration:none; line-height: 1.6471em; text-transform: none; font-variant: small-caps; }
 nav ul a:hover, nav ul a:active { text-decoration: none; }
 
 #header { width: 980px; padding: 0; background: #fff; color: #000; height: 60px; margin: 0 auto 1em auto; }
-#branding h1{ font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; color:#333; line-height: 60px; margin: 20px 18px; }
+#branding h1{ font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; color:#212121; line-height: 60px; margin: 20px 18px; }
 
 /* Zones (defined in Theme.txt) */
 .zone 
@@ -198,7 +197,7 @@ h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765
 	-o-transition: color 0.16s ease-in-out;
 	transition: color 0.16s ease-in-out;
 }
-.tags a:hover, .tags a:active { color: #333; text-decoration: none; }
+.tags a:hover, .tags a:active { color: #212121; text-decoration: none; }
 
 /* Taxonomy 
 (display removed via template override, but keep the styling) */
@@ -210,7 +209,7 @@ h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765
 	-o-transition: color 0.16s ease-in-out;
 	transition: color 0.16s ease-in-out;
 }
-.taxonomy-field a:hover, .taxonomy-field a:active { color: #333; text-decoration: none; }
+.taxonomy-field a:hover, .taxonomy-field a:active { color: #212121; text-decoration: none; }
 /* content items listing taxonomy look */
 .content-items .content-item .taxonomy-field { font-size: 0.8824em; line-height: 1.5333em; }
 .content-items .content-item .taxonomy-field a { }
@@ -262,7 +261,7 @@ h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765
 .zone-sidebar > div.widget-control { margin-bottom: 0; }
 .zone-sidebar h1 { margin-top: 1.5em; margin-bottom: 1em; font-size: 1.3333em; border-bottom: 1px dotted #bababa; font-variant: small-caps; }
 .zone-sidebar h1:first-child { margin-top: 0px; padding-top: 0.1765em; }
-.zone-sidebar a { color: #333; }
+.zone-sidebar a { color: #212121; }
 .zone-sidebar #about { }
 .zone-sidebar #about p { }
 
