@@ -1,0 +1,19 @@
+﻿<Placement>
+  <Match ContentType="Blog">
+      <Place Parts_Blogs_Blog_Description="-"
+             Parts_RoutableTitle="-"
+			 Parts_Common_Metadata="-" />
+  </Match>
+
+  <Match DisplayType="Summary">
+    <Place Parts_Tags_ShowTags="-"
+	       Parts_Comments_Count="-"
+		   Fields_Contrib_TaxonomyField="-" />
+  </Match>
+
+  <Match DisplayType="Detail">
+    <Place Fields_Contrib_TaxonomyField="-" />
+  </Match>
+
+
+</Placement>
