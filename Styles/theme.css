@@ -104,8 +104,13 @@ pre         { margin: 0 10px 2.25em 10px; /*27px*/ font-size: 0.7059em; /*12px*/
               font-family: Consolas, "Liberation Mono", Monaco, "Lucida Console", "Courier New", Courier, monospace; 
               border-width: 0 !important; background-color: #f9f9f9; padding: 10px !important; border-radius: 10px; }
     
-a:focus, a:hover { text-decoration: underline; }
-a { color: #d71a21; text-decoration: none; }
+a { color: #d71a21; text-decoration: none; 
+	-webkit-transition: color 0.16s ease-in-out;
+	-moz-transition: color 0.16s ease-in-out;
+	-o-transition: color 0.16s ease-in-out;
+	transition: color 0.16s ease-in-out;
+}
+a:focus, a:hover, a:active { color: #bb0509; text-decoration: none; }
 
 blockquote  { margin-left: 0.7059em; margin-right: 0.7059em; margin-bottom: 1.5882em; color: #878787; font-style: italic; padding-top: 0.3529em; margin-top: -0.3529em; background: url(../Content/Images/quote-open.png) top left no-repeat; }
 blockquote p { margin-left: 2.3529em; }
@@ -151,7 +156,7 @@ nav ul li:last-child { border-right-width: 0; }
 nav ul li:hover { background-color: #ebebeb; }
 /*nav ul li.current { background:#fff; }*/
 nav ul a { padding: 0px 1em; display:block; color: #212121; text-decoration:none; line-height: 1.6471em; text-transform: none; font-variant: small-caps; }
-nav ul a:hover, nav ul a:active { text-decoration: none; }
+nav ul a:hover, nav ul a:active { text-decoration: none; color: #212121; }
 
 #header { width: 980px; padding: 0; background: #fff; color: #000; margin: 2px auto; border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; }
 #branding h1 { font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; color:#212121; line-height: 40px; margin: 25px 18px; }
@@ -273,6 +278,7 @@ h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765
 .zone-sidebar a { color: #212121; }
 .zone-sidebar #about { }
 .zone-sidebar #about p { }
+.zone-sidebar .img-about { float: left; margin: 0.4118em 1.2353em 0.8235em 0em; }
 
 /* Footer
 ***************************************************************/
