@@ -1,9 +1,4 @@
-﻿#/****** TEMP STUFF **********/
-
-header .metadata { border: 0px dotted #ccc; }
-
-
-/*
+﻿/*
 Theme: The Other Side of Code
 Author: Tomislav Capan
 Copyright: (c) 2011. Netko Ltd. (http://netko.hr/)
@@ -52,40 +47,7 @@ header, footer, aside, nav, article { display: block; }
 /* General
 ***************************************************************/
 /* Default font settings. 
-The body font-size 106.25% sets the base font to 17px 
-
-Pixels	  Ems	   Percent	Points
-  6	0.3529	    35.29%	  5
-  7	0.4118	    41.18%	  5
-  8	0.4706	    47.06%	  6
-  9	0.5294	    52.94%	  7
- 10	0.5882	    58.82%	  8
- 11	0.6471	    64.71%	  8
- 12	0.7059	    70.59%	  9
- 13	0.7647	    76.47%	 10
- 14	0.8235	    82.35%	 11
- 15	0.8824	    88.24%	 11
- 16	0.9412	    94.12%	 12
- 17	1.0000	   100.00%	 13
- 18	1.0588	   105.88%	 14
- 19	1.1176	   111.76%	 14
- 20	1.1765	   117.65%	 15
- 21	1.2353	   123.53%	 16
- 22	1.2941	   129.41%	 17
- 23	1.3529	   135.29%	 17
- 24	1.4118	   141.18%	 18
- 25	1.4706	   147.06%	
- 26	1.5294	   152.94%	
- 27	1.5882	   158.82%	
- 28	1.6471	   164.71%	
- 29	1.7059	   170.59%	
- 30	1.7647	   176.47%	
- 31	1.8235	   182.35%	
- 32	1.8824	   188.24%	
- 33	1.9412	   194.12%	
- 34	2.0000	   200.00%	
-*/
-
+The body font-size 106.25% sets the base font to 17px */
 body { font: normal 106.25% Cambria, 'Liberation Serif', 'Philosopher', Georgia, Serif; height: 100%; text-align:left; color:#212121; background: #fff; }
 
 /* Headings */
@@ -162,8 +124,7 @@ nav ul a:hover, nav ul a:active { text-decoration: none; color: #212121; }
 #branding h1 { font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; color:#212121; line-height: 40px; margin: 25px 18px; }
 
 /* Zones (defined in Theme.txt) */
-.zone 
-{
+.zone {
     /*  Enable this to see zone visualizations
     background-color: yellow; box-shadow:inset 0 0 1px purple; -moz-box-shadow:inset 0 0 1px purple; -webkit-box-shadow:inset 0 0 1px purple;
     */
@@ -307,10 +268,8 @@ a.social-button img:hover { opacity: 1; }
 
 /* Widgets
 ***************************************************************/
-/*
 .widgets {}
-.widget h1 { font-size: 1em; }
-*/
+.widget h1 {}
 
 /* Edit Mode Widgets */
 /* These are the edit controls that appear when you're logged-in */
@@ -349,7 +308,6 @@ a.social-button img:hover { opacity: 1; }
 
 /* CSS 3 Enhancements 
 ***************************************************************/
-
 input[type="submit"], input[type="button"], button, .button, .button:link, .button:visited {
     margin:.2em 0 2em 0; padding:.3em 1.8em; text-align:center;
     border: 1px solid #999; color:#333; cursor:pointer;
