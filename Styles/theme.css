@@ -160,6 +160,7 @@ article.content-item .content-items > li.first .content-item h1 { margin-top: -0
 .content-item h4 { font-size: 1.2941em; line-height: 1.1818em; margin-top: 1.875em; margin-bottom: 0.625em; }
 .content-item h5 { font-size: 1.1176em; line-height: 1.1579; margin-top: 2.3289em; margin-bottom: 0.7763em; }
 .content-item h6 { font-size: 1.1176em; line-height: 1.1579; margin-top: 2.3289em; margin-bottom: 0.7763em; }
+.content-item p.outro { font-style: italic; color: #787878; font-size: 1.2353em; line-height: 1.2857; margin-top: 2.5714em; margin-bottom: 1.2857em; }
 
 h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765em; border-bottom: 1px dotted #dcdcdc; padding-top: 0.1765em; font-variant: small-caps; text-transform: lowercase; }
 
@@ -201,7 +202,7 @@ h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765
 .blog-post { position: relative; }
 .share-this-left { position: absolute; left: -104px; text-align: right; }
 .share-this-left > span { display: block; margin-bottom: 19px; }
-.share-this-bottom { font-size: 0.8824em; margin-top: 4.5em; }
+.share-this-bottom { font-size: 0.8824em; margin-top: 5.4em; }
 .share-this-bottom h5 { color: #878787; font-style: italic; font-size: 1.2666em; line-height: 1.5263em; margin-bottom: 0.4em; border-bottom: 1px dotted #bababa; text-indent: 2px; }
 .share-this-bottom > span { margin-right: 10px; }
 
