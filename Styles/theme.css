@@ -250,8 +250,9 @@ h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765
 
 /* Footer
 ***************************************************************/
-footer { margin-bottom: 1.2em; width: 940px; margin: 0 auto; padding: 20px; border-top: 4px solid #ebebeb; }
-footer span { display: block; font-size: 0.675em; line-height: 1.4em; color: #ababab; text-align: right; }
+footer { margin-bottom: 1.2em; width: 940px; margin: 0 auto; padding: 15px 20px 25px 20px; border-top: 4px solid #ebebeb; position: relative; }
+footer span { display: block; font-size: 0.675em; line-height: 1.4em; color: #ababab; }
+.footer-sig { position: absolute; top: 20px; right: 10px; }
 
 /* Misc
 ***************************************************************/

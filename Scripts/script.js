@@ -5,11 +5,25 @@
 	
 	// -- other stuff
 	styleCode();
+	externalLinks();
+	selectDefaultMenuItem();
 	
-	if ($("nav ul li.current").length == 0) {
-		$("nav ul li:first-child").addClass("current");
+	// -- external links
+	function externalLinks() {
+		$('a[rel*="external"]').click(function (e) {
+			e.preventDefault();
+			window.open($(this).attr('href'));
+		});
+	}
+
+	// -- default selected menu item when no selected
+	function selectDefaultMenuItem() {
+		if ($("nav ul li.current").length == 0) {
+			$("nav ul li:first-child").addClass("current");
+		}
 	}
 	
+	// -- prettify code blocks in text
 	function styleCode() {
 		var shouldPrettify = false;
 		$("pre code").parent().each(function() {
