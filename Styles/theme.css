@@ -121,7 +121,7 @@ nav ul a { padding: 0px 1em; display:block; color: #212121; text-decoration:none
 nav ul a:hover, nav ul a:active { text-decoration: none; color: #212121; }
 
 #header { width: 980px; padding: 0; background: #fff; color: #000; margin: 2px auto; border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; }
-#branding h1 { font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; color:#212121; line-height: 40px; margin: 25px 18px; }
+#branding h1 { font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; color:#212121; line-height: 40px; margin: 25px 18px; text-shadow: 2px 2px 2px #dbdbdb; }
 
 /* Zones (defined in Theme.txt) */
 .zone {
