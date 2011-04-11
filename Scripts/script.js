@@ -6,6 +6,10 @@
 	// -- other stuff
 	styleCode();
 	
+	if ($("nav ul li.current").length == 0) {
+		$("nav ul li:first-child").addClass("current");
+	}
+	
 	function styleCode() {
 		var shouldPrettify = false;
 		$("pre code").parent().each(function() {
