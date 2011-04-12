@@ -121,6 +121,7 @@ nav ul a:hover, nav ul a:active { text-decoration: none; color: #ffffff; }
 
 #header { width: 980px; padding: 0; background: #fff; color: #000; margin: 2.5294em auto 1.7059em auto; }
 #branding h1 { font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; color:#212121; line-height: 40px; margin: 25px 18px; text-shadow: 2px 2px 2px #dbdbdb; }
+#branding h1 a { color:#212121; }
 
 /* Zones (defined in Theme.txt) */
 .zone {
