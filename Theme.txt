@@ -1,7 +1,7 @@
 Name: The Other Side
-Author: Tomislav Capan
-Website: http://www.theothersideofcode.com/
+Author: Netko Ltd.
+Website: http://www.netko.hr/
 Description: 'The other side' blog theme
 Version: 1.0
-Tags: Classic, Blog, Serif
+Tags: Classic, Blog, Serif, Clear
 Zones: Navigation, Header, Messages, Content, Sidebar, Footer
