@@ -72,7 +72,7 @@ a { color: #e20f14; text-decoration: none;
 	-o-transition: color 0.16s ease-in-out;
 	transition: color 0.16s ease-in-out;
 }
-a:focus, a:hover, a:active { color: #787878; text-decoration: none; }
+a:focus, a:hover, a:active { color: #212121; text-decoration: none; }
 
 blockquote  { margin-left: 0.7059em; margin-right: 0.7059em; margin-bottom: 1.5882em; color: #878787; font-style: italic; padding-top: 0.3529em; margin-top: -0.3529em; background: url(../Content/Images/quote-open.png) top left no-repeat; }
 blockquote p { margin-left: 2.3529em; }
@@ -119,8 +119,8 @@ nav ul li.current { background-color: #e20f14; }
 nav ul a { padding: 0px 1em; display:block; color: #ffffff; text-decoration:none; line-height: 1.6471em; text-transform: none; font-variant: small-caps; }
 nav ul a:hover, nav ul a:active { text-decoration: none; color: #ffffff; }
 
-#header { width: 980px; height: 102px; padding: 0; background-color: #a0a0a0; color:#ffffff; margin: 2px auto; background-image: url(../Content/Images/header.jpg); background-repeat: no-repeat; }
-#branding h1 { font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; line-height: 100px; margin: 0px 18px; text-shadow: 2px 2px 2px #606060; }
+#header { width: 980px; height: 120px; padding: 0; background-color: #a0a0a0; color:#ffffff; margin: 2px auto; background-image: url(../Content/Images/header.jpg); background-repeat: no-repeat; }
+#branding h1 { font-size: 2.6666em; font-family: 'Philosopher', Cambria, Georgia, Serif; line-height: 118px; margin: 0px 20px; text-shadow: 2px 2px 2px #606060; }
 
 /* Zones (defined in Theme.txt) */
 .zone {
