@@ -18,13 +18,13 @@
     WorkContext.Layout.Footer.Add(New.Footer(), "5"); // Powered by Orchard
 }
 
-<div id="layout-navigation" class="group">
-    @Display(Model.Navigation)
-</div>
 <div id="header">
     <div id="branding">
         <h1>@WorkContext.CurrentSite.SiteName</h1>
     </div>
+</div>
+<div id="layout-navigation" class="group">
+    @Display(Model.Navigation)
 </div>
 <div id="main" class="group">
     <div id="content-wrapper">
