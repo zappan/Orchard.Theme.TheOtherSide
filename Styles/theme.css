@@ -144,22 +144,23 @@ nav ul a:hover, nav ul a:active { text-decoration: none; color: #ffffff; }
 
 /* Content
 ***************************************************************/
+.more { display: block; text-align: right; margin-right: 1.7647em; font-style: italic; }
 
 /* Content lists and details */
-.content-items .content-item header h1 { margin-top: 1.5882em; }
+.content-items .content-item header h1 { margin-top: 2.3824em; }
 .content-items > li.first .content-item h1 { margin-top: 0; }
 article.content-item .content-items > li.first .content-item h1 { margin-top: -0.5em; } /*front page blog*/
 .content-item header { margin-bottom: 1em; position: relative; }
-.content-item header h1 { margin-top: 0; margin-bottom: 0; }
+.content-item header h1 { margin-top: 0; margin-bottom: 0; font-size: 2em; line-height: 1.1765em; }
 .content-item h1 a { text-decoration: none; color: #e20f14; }
 
 /* top margin = 3/4 * (block height - line height); bottom margin = 1/4 * (..) */
-.content-item h1 { font-size: 2em; line-height: 1.1765em; margin-top: 2.3824em; margin-bottom: 0.7941em; }
-.content-item h2 { font-size: 1.7647em; line-height: 1.2em; margin-top: 1.125em; margin-bottom: 0.375em; }
-.content-item h3 { font-size: 1.5294em; line-height: 1.1923em; margin-top: 1.4423em; margin-bottom: 0.4808em; }
-.content-item h4 { font-size: 1.2941em; line-height: 1.1818em; margin-top: 1.875em; margin-bottom: 0.625em; }
-.content-item h5 { font-size: 1.1176em; line-height: 1.1579; margin-top: 2.3289em; margin-bottom: 0.7763em; }
-.content-item h6 { font-size: 1.1176em; line-height: 1.1579; margin-top: 2.3289em; margin-bottom: 0.7763em; }
+.content-item h1 { font-size: 2em; line-height: 1.5882em; margin-top: 1.2089em; margin-bottom: 0.4030em; }
+.content-item h2 { font-size: 1.6471em; line-height: 1.6071em; margin-top: 0.9803em; margin-bottom: 0.3268em; }
+.content-item h3 { font-size: 1.2308em; line-height: 1.6190em; margin-top: 1.7000em; margin-bottom: 0.5667em; }
+.content-item h4 { font-size: 1.1176em; line-height: 1.6316em; margin-top: 1.9975em; margin-bottom: 0.6658em; }
+.content-item h5 { font-size: 1em; line-height: 1.5882em; margin-top: 2.4089em; margin-bottom: 0.8030em; }
+.content-item h6 { font-size: 1em; line-height: 1.5882em; margin-top: 1.2089em; margin-bottom: 0.4030em; }
 .content-item p.outro { font-style: italic; color: #787878; font-size: 1.2353em; line-height: 1.2857; margin-top: 2.5714em; margin-bottom: 1.2857em; }
 
 h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765em; border-bottom: 1px dotted #dcdcdc; padding-top: 0.1765em; font-variant: small-caps; text-transform: lowercase; }
