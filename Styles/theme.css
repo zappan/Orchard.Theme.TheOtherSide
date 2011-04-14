@@ -132,13 +132,13 @@ nav ul a:hover, nav ul a:active { text-decoration: none; color: #ffffff; }
 .zone-header { }
 .zone-navigation { padding: 0; }
 .zone-messages { font-size: 0.8824em; font-style: italic; padding: 0.6em 30px 0.8em 0; }
-.zone-content { width: 544px; padding: 7px 30px 0 0; }
-.zone-sidebar { font-size: 0.8824em; width: 336px; padding: 7px 0 0 30px; margin-top: 0; }
+.zone-content { width: 544px; padding-right: 30px; }
+.zone-sidebar { font-size: 0.8824em; width: 336px; padding-left: 30px; margin-top: 0; }
 .zone-footer {}
 
 /* Main
 ***************************************************************/
-#main { margin: 0 auto 40px auto; width: 940px; padding: 20px 20px 0 20px; display: block; }
+#main { display: block; width: 940px; margin: 2em auto 3em auto; padding: 0 20px; }
 #content-wrapper { float: left; }
 #sidebar-wrapper { float: right; }
 
@@ -241,7 +241,7 @@ h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765
 
 /* Sidebar Content
 ***************************************************************/
-.zone-sidebar > div { margin-bottom: 2em; }
+.zone-sidebar > .widget { margin-bottom: 2.2667em; }
 .zone-sidebar > div.widget-control { margin-bottom: 0; }
 .zone-sidebar h1 { margin-top: 1.5em; margin-bottom: 1em; font-size: 1.3333em; border-bottom: 1px dotted #bababa; font-variant: small-caps; }
 .zone-sidebar h1:first-child { margin-top: 0px; padding-top: 0.1765em; }
