@@ -241,7 +241,7 @@ h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765
 
 /* Sidebar Content
 ***************************************************************/
-.zone-sidebar > .widget { margin-bottom: 2.2667em; }
+.zone-sidebar .widget { margin-bottom: 2.2667em; }
 .zone-sidebar > div.widget-control { margin-bottom: 0; }
 .zone-sidebar h1 { margin-top: 1.5em; margin-bottom: 1em; font-size: 1.3333em; border-bottom: 1px dotted #bababa; font-variant: small-caps; }
 .zone-sidebar h1:first-child { margin-top: 0px; padding-top: 0.1765em; }
