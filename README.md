@@ -1,4 +1,5 @@
-﻿# The Other Side theme for the Orchard CMS
+﻿The Other Side theme for the Orchard CMS
+========================================
 
 A clean theme for running a blog on [Orchard CMS](http://orchardproject.net/).
 
