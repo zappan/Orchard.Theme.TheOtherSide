@@ -78,9 +78,9 @@ blockquote  { margin-left: 0.7059em; margin-right: 0.7059em; margin-bottom: 1.58
 blockquote p { margin-left: 2.3529em; }
 blockquote cite { display: block; margin-right: 2.3529em; text-align: right; margin: -1em 1.5882em 0.5882em 0; line-height: 1.5882em; }
 
-strong      { font-weight: bold; }
-em,dfn      { font-style: italic; }
-dfn         { font-weight: bold; }
+strong, .strong      { font-weight: bold; }
+em,dfn, .italic      { font-style: italic; }
+dfn                  { font-weight: bold; }
 
 abbr, acronym	{ border-bottom: 1px dotted #666; }
 del				{ color:#666; }
@@ -106,7 +106,7 @@ input, textarea { font: normal 106.25% Cambria, 'Philosopher', Georgia, Serif; c
 
 /* Navigation */
 #layout-navigation { width: 980px; padding: 0; margin: 0 auto; display: block; border-bottom: 1px solid #ebebeb; }
-nav ul { padding: 0; margin: 0; }
+nav ul { padding: 0; margin: 0; padding-left: 20px; }
 nav ul li { display: inline-block; margin: 0; margin-bottom: -1px; background-color: #787878; border-right: 1px solid #ffffff; 
 	-webkit-transition: background-color 0.27s ease;
 	-moz-transition: background-color 0.27s ease;
