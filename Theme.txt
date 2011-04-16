@@ -1,7 +1,7 @@
 Name: The Other Side
-Author: Netko Ltd.
+Author: Tomislav Capan, Netko Ltd.
 Website: http://www.netko.hr/
 Description: 'The other side' blog theme
-Version: 1.0
+Version: 0.9.0
 Tags: Classic, Blog, Serif, Clear
 Zones: Navigation, Header, Messages, Content, Sidebar, Footer
