@@ -5,9 +5,9 @@ A clean theme for running a blog on [Orchard CMS](http://orchardproject.net/).
 
 ## What is Orchard?
 
-Orchard CMS is a nice CMS built on top of the Microsoft's MVC web stack, which can also be run on Mono. 
+Orchard CMS is a nice modular CMS built on top of the Microsoft's MVC web stack, which can also be run on Mono. 
 
-Although it's a new player in the CMS arena, it promises great experience when building websites on top of it. It combines the simplicity and ease of use of WordPress, with the power concepts of Drupal, modularity and a clean architecture that won't make developers cry when something needs to be extended or changed.
+Although it's a new player in the CMS arena, it promises great experience when building websites on top of it. It combines the simplicity and ease of use of WordPress, with the power concepts of Drupal. Its clean architecture won't make developers cry when something needs to be extended or changed.
 
 ## About "The Other Side" theme
 
@@ -17,7 +17,7 @@ I've decided to open source the theme to make it available for all the people in
 
 ## Installation
 
-Install theme from the Orchard Gallery by following the official [theme installation guide](http://orchardproject.net/docs/Installing-themes.ashx#Installing_a_Theme_from_the_Gallery_0)
+Install theme from the [Orchard Gallery](http://www.orchardproject.net/gallery/List/Themes/Orchard.Theme.TheOtherSide/0.9.0) by following the official [theme installation guide](http://orchardproject.net/docs/Installing-themes.ashx#Installing_a_Theme_from_the_Gallery_0)
 
 Alternatively, download a theme and install from your local computer by following [this section](http://www.orchardproject.net/docs/Installing-themes.ashx#Installing_a_Theme_from_your_Local_Computer_1) of the theme installation guide.
 
