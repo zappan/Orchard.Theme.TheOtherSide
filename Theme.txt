@@ -1,7 +1,7 @@
 Name: The Other Side
 Author: Tomislav Capan, Netko Ltd.
 Website: http://www.netko.hr/
-Description: 'The other side' blog theme
-Version: 0.9.0
-Tags: Classic, Blog, Serif, Clear
+Description: 'The other side' is a light and clean theme with nice typography, designed primarily for blogs.
+Version: 1.0.0
+Tags: Classic, Blog, Serif, Clear, Personal, Light, Clean
 Zones: Navigation, Header, Messages, Content, Sidebar, Footer

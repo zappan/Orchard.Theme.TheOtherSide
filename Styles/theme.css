@@ -5,10 +5,9 @@ Copyright: (c) 2011. Netko Ltd. (http://netko.hr/)
 */
 
 /* Colors Palette
-Background: #d3d3d3
-Text: #000
-Main Accent: #999
-Links: #c03
+Background: #ffffff
+Text: #212121
+Links: #e20f14
 */
 
 /* Reset
@@ -162,6 +161,7 @@ article.content-item .content-items > li.first .content-item h1 { margin-top: -0
 .content-item h5 { font-size: 1em; line-height: 1.5882em; margin-top: 2.4089em; margin-bottom: 0.8030em; }
 .content-item h6 { font-size: 1em; line-height: 1.5882em; margin-top: 1.2089em; margin-bottom: 0.4030em; }
 .content-item p.outro { font-style: italic; color: #787878; font-size: 1.2353em; line-height: 1.2857; margin-top: 2.5714em; margin-bottom: 1.2857em; }
+.content-item p.caption { font-style: italic; color: #787878; font-size: 0.8824em; line-height: 1.8000em; margin: -2.4em 0 2.2667em; background-color: #f7f7f7; padding: 0 0.4667em; border: 1px solid #dbdbdb; }
 
 h1.page-title { color: #878787; margin: 0; margin-bottom: 1em; font-size: 1.1765em; border-bottom: 1px dotted #dcdcdc; padding-top: 0.1765em; font-variant: small-caps; text-transform: lowercase; }
 
@@ -286,7 +286,6 @@ a.social-button img:hover { opacity: 1; }
 }
 .widget-control .manage-actions a:hover { background-color: #eaeaea; color: #9f9f9f; text-decoration: none; }
 
-
 /* Content Mode */
 /* These are the edit controls that appear when you're logged-in */
 .content-control { }
@@ -301,13 +300,15 @@ a.social-button img:hover { opacity: 1; }
 
 /* Pager
 ***************************************************************/
-/*
-.pager { list-style: none; padding: 0; margin: 12px 0 0 0; }
-.pager li { float: left; padding: 0 12px 0 0; margin: 0; }
-.pager a { font-size: 1.077em; display: block; background-color: #dbdbdb; padding: 6px 6px; color: #434343;}
-.pager a:hover { background-color: #434343; color: #fff; }
-*/
-
+.pager { list-style: none; margin-top: 1em; margin-bottom: -1em; }
+.pager li { display: inline-block; background-color: #787878; border-right: 1px solid #ffffff; font-size: 0.8824em; line-height: 1.5333em; margin-right: 0.3333em; }
+.pager a { padding: 0px 1em 2px 1em; display: block; color: #ffffff; text-decoration: none; text-transform: none; font-variant: small-caps; 
+	-webkit-transition: background-color 0.27s ease;
+	-moz-transition: background-color 0.27s ease;
+	-o-transition: background-color 0.27s ease;
+	transition: background-color 0.27s ease;
+}
+.pager a:hover { text-decoration: none; background-color: #e20f14; color: #ffffff; }
 
 /* CSS 3 Enhancements 
 ***************************************************************/
@@ -320,7 +321,6 @@ input[type="submit"], input[type="button"], button, .button, .button:link, .butt
     border-radius: 4px;
 }
 input[type="text"], textarea { border-radius: 4px; border: 1px solid #dbdbdb; }
-
 input[type="submit"]:hover, input[type="button"]:hover,
 input[type="submit"]:active, input[type="button"]:active,
 input[type="submit"]:focus, input[type="button"]:focus,

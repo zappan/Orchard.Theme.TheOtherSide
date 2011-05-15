@@ -1,7 +1,7 @@
 ﻿The Other Side theme for the Orchard CMS
 ========================================
 
-A clean theme for running a blog on [Orchard CMS](http://orchardproject.net/).
+A clean and light theme with nice typography, designed primarily for running a blog on [Orchard CMS](http://orchardproject.net/).
 
 ## What is Orchard?
 
@@ -17,16 +17,18 @@ I've decided to open source the theme to make it available for all the people in
 
 ## Installation
 
-Install theme from the [Orchard Gallery](http://www.orchardproject.net/gallery/List/Themes/Orchard.Theme.TheOtherSide/0.9.0) by following the official [theme installation guide](http://orchardproject.net/docs/Installing-themes.ashx#Installing_a_Theme_from_the_Gallery_0)
+Install theme from the [Orchard Gallery](http://www.orchardproject.net/gallery/List/Themes/Orchard.Theme.TheOtherSide) by following the official [theme installation guide](http://orchardproject.net/docs/Installing-themes.ashx#Installing_a_Theme_from_the_Gallery_0)
 
 Alternatively, download a theme and install from your local computer by following [this section](http://www.orchardproject.net/docs/Installing-themes.ashx#Installing_a_Theme_from_your_Local_Computer_1) of the theme installation guide.
 
 ## History
 
-* [2011-04-16] v0.9: Theme usable for production, while some details still need to be polished. **Note:** _ShareThis_ buttons are currently built directly into the theme, that should be removed from a theme and implemented through an Orchard Module
+* [2011-05-15] v1.0.0: Added image caption paragraph class ("caption"), pager links styled. Changes in footer to insert a direct link to the theme in the Orchard Gallery.
+* [2011-04-16] v0.9.0: Theme usable for production, while some details still need to be polished. **Note:** _ShareThis_ buttons are currently built directly into the theme, that should be removed from a theme and implemented through an Orchard Module
 
 ## Resources
 * Orchard Project homepage: [http://orchardproject.net/](http://orchardproject.net/)
-* Orchard themes and plugins gallery: [http://www.orchardproject.net/gallery](http://www.orchardproject.net/gallery)
 * Orchard Project CodePlex site and the source code: [http://orchard.codeplex.com/](http://orchard.codeplex.com/)
+* Orchard themes and plugins gallery: [http://www.orchardproject.net/gallery](http://www.orchardproject.net/gallery)
+* Theme page at the Orchard Gallery: [http://www.orchardproject.net/gallery/List/Themes/Orchard.Theme.TheOtherSide](http://www.orchardproject.net/gallery/List/Themes/Orchard.Theme.TheOtherSide)
 * Check out [The Other Side of Code](http://theothersideofcode.net/) blog
