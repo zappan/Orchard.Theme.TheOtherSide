@@ -10,7 +10,7 @@
     int moreIndex = bodyHtml.IndexOf("<!--more-->");
     if (moreIndex != -1)
     {
-        bodyHtml = bodyHtml.Substring(0, more);
+        bodyHtml = bodyHtml.Substring(0, moreIndex);
     }
     else 
     {
