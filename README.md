@@ -23,7 +23,8 @@ Alternatively, download a theme and install from your local computer by followin
 
 ## History
 
-* [2011-09-01] v1.0.3: Updating theme to match changes in Taxonomy module for overriding displaying the topic title on top of details page
+* [2011-09-01] v1.0.3.1: Discarding changes related to Taxonomy, this must be an individual customization per installation and taxonomies defined
+* [2011-09-01] v1.0.3: CSS fix for conteint items lists; Updating theme to match changes in Taxonomy module for overriding displaying the topic title on top of details page
 * [2011-09-01] v1.0.2: Cherry-picked changes from Anthony Steele regarding the blog post summary excerpt technique discussed at http://orchard.codeplex.com/discussions/258666
 * [2011-09-01] v1.0.1: Fixed CSS styling for unordered and ordered lists
 * [2011-05-15] v1.0.0: Added image caption paragraph class ("caption"), pager links styled. Changes in footer to insert a direct link to the theme in the Orchard Gallery.

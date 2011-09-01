@@ -16,8 +16,6 @@
 
   <Match DisplayType="Detail">
     <Place Fields_Contrib_TaxonomyField="-" />
-    <Place Parts_RoutableTitle="-" />
-    <Place Parts_Common_Metadata="-" />
   </Match>
 
 
