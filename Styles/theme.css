@@ -65,6 +65,12 @@ pre         { margin: 0 10px 2.25em 10px; /*27px*/ font-size: 0.7059em; /*12px*/
               font-family: Consolas, "Liberation Mono", Monaco, "Lucida Console", "Courier New", Courier, monospace; 
               border-width: 0 !important; background-color: #f9f9f9; padding: 10px !important; border-radius: 10px; }
     
+ul, ol		{ margin: 0 0 1.5882em; line-height: 1.5882em; }
+p+ul, p+ol	{ margin: -1.5882em 0 1.5882em; line-height: 1.5882em; }
+li			{ margin-left: 2.2941em; }
+ul li		{ list-style-type: disc; }
+ol li		{ list-style-type: decimal; }
+
 a { color: #e20f14; text-decoration: none; 
 	-webkit-transition: color 0.16s ease-in-out;
 	-moz-transition: color 0.16s ease-in-out;
