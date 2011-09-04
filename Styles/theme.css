@@ -71,6 +71,7 @@ li			{ margin-left: 2.2941em; }
 ul li		{ list-style-type: disc; }
 ol li		{ list-style-type: decimal; }
 .content-items li { list-style-type: none; margin-left: 0; }
+fieldset li { list-style-type: none; margin-left: 0; }
 
 a { color: #e20f14; text-decoration: none; 
 	-webkit-transition: color 0.16s ease-in-out;
