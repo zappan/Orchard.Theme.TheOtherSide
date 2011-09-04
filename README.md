@@ -23,6 +23,7 @@ Alternatively, download a theme and install from your local computer by followin
 
 ## History
 
+* [2011-09-04] v1.0.4: Styling Fix: removed list items showing bullets inside fieldsets, fixed password field styling to match other input fields
 * [2011-09-01] v1.0.3.1: Discarding changes related to Taxonomy, this must be an individual customization per installation and taxonomies defined
 * [2011-09-01] v1.0.3: CSS fix for conteint items lists; Updating theme to match changes in Taxonomy module for overriding displaying the topic title on top of details page
 * [2011-09-01] v1.0.2: Cherry-picked changes from Anthony Steele regarding the blog post summary excerpt technique discussed at http://orchard.codeplex.com/discussions/258666
