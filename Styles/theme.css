@@ -61,9 +61,11 @@ h5 {font-size: 1.0588em;}
 p           { margin: 0 0 1.5882em; line-height: 1.5882em; }
 p img.left  { float: left; margin: 0.9412em 0.9412em 0.9412em 0; padding: 0; }
 p img.right { float: right; margin: 0.9412em 0 0.9412em 0.9412em; }
-pre         { margin: 0 10px 2.25em 10px; /*27px*/ font-size: 0.7059em; /*12px*/ line-height: 1.1667em; /*14px*/ 
-              font-family: Consolas, "Liberation Mono", Monaco, "Lucida Console", "Courier New", Courier, monospace; 
+pre, code   { font-size: 0.7059em; /*12px*/ line-height: 1.1667em; /*14px*/ background-color: #f9f9f9; 
+	          font-family: Consolas, "Liberation Mono", Monaco, "Lucida Console", "Courier New", Courier, monospace; }
+pre         { margin: 0 10px 2.25em 10px; /*27px*/ 
               border-width: 0 !important; background-color: #f9f9f9; padding: 10px !important; border-radius: 10px; }
+pre code    { font-size: inherit; line-height: inherit; }
     
 ul, ol		{ margin: 0 0 1.5882em; line-height: 1.5882em; }
 p+ul, p+ol	{ margin: -1.5882em 0 1.5882em; line-height: 1.5882em; }
